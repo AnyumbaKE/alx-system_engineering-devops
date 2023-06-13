@@ -1,5 +1,0 @@
-#!/bin/bash
-PATH="$path:/action"
-
-
-

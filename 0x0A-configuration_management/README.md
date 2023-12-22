@@ -73,8 +73,8 @@ You do <b>not</b> need to attempt to upgrade versions. This project is simply a 
 ```
 $ gem install puppet-lint
 ```
-### Tasks
-0. Create a file
+## Tasks
+###0. Create a file
 <p>mandatory</p>
 <p>Using Puppet, create a file in /tmp.</p>
 
@@ -107,7 +107,7 @@ GitHub repository: alx-system_engineering-devops
 Directory: 0x0A-configuration_management
 File: 0-create_a_file.pp
 
-1. Install a package
+### 1. Install a package
 mandatory
 Using Puppet, install flask from pip3.
 
@@ -116,7 +116,7 @@ Requirements:
 Install flask
 Version must be 2.1.0
 Example:
-
+```
 root@9665f0a47391:/# puppet apply 1-install_a_package.pp
 Notice: Compiled catalog for 9665f0a47391 in environment production in 0.14 seconds
 Notice: /Stage[main]/Main/Package[Flask]/ensure: created
@@ -125,13 +125,14 @@ root@9665f0a47391:/# flask --version
 Python 3.8.10
 Flask 2.1.0
 Werkzeug 2.1.1
+```
 Repo:
 
 GitHub repository: alx-system_engineering-devops
 Directory: 0x0A-configuration_management
 File: 1-install_a_package.pp
   
-2. Execute a command
+### 2. Execute a command
 mandatory
 Using Puppet, create a manifest that kills a process named killmenow.
 
@@ -142,7 +143,7 @@ Must use pkill
 Example:
 
 Terminal #0 - starting my process
-
+```
 root@d391259bf577:/# cat killmenow
 #!/bin/bash
 while [[ true ]]
@@ -151,8 +152,9 @@ do
 done
 
 root@d391259bf577:/# ./killmenow
+```
 Terminal #1 - executing my manifest
-
+```
 root@d391259bf577:/# puppet apply 2-execute_a_command.pp
 Notice: Compiled catalog for d391259bf577.hsd1.ca.comcast.net in environment production in 0.01 seconds
 Notice: /Stage[main]/Main/Exec[killmenow]/returns: executed successfully
@@ -163,6 +165,7 @@ Terminal #0 - process has been terminated
 root@d391259bf577:/# ./killmenow
 Terminated
 root@d391259bf577:/#
+```
 Repo:
 
 GitHub repository: alx-system_engineering-devops

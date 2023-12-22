@@ -1,4 +1,4 @@
-# install flask from pip3
+# install flask from pip3.
 
 # ensure that python present 
 package { 'python3.8':

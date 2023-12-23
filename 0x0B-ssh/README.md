@@ -1,4 +1,4 @@
-0x0B. SSH
+# 0x0B. SSH
 DevOps
 SSH
 Network
@@ -9,7 +9,7 @@ Security
  Project will start Dec 22, 2023 6:00 AM, must end by Jan 2, 2024 6:00 AM
  Checker will be released at Dec 25, 2023 12:00 AM
  An auto review will be launched at the deadline
-Background Context
+## Background Context
 
 
 Along with this project, you have been attributed an Ubuntu server, living in a datacenter far far away. Like level 2 of the application process, you will connect using ssh. But contrary to level 2, you will not connect using a password but an RSA key. We’ve configured your server with the public key you created in the first task of a previous project shared in your intranet profile.
@@ -43,9 +43,9 @@ env
 Learning Objectives
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 
-General
-What is a server
-Where servers usually live
+## General
+- What is a server
+- Where servers usually live
 What is SSH
 How to create an SSH RSA key pair
 How to connect to a remote host using an SSH RSA key pair
@@ -66,38 +66,41 @@ The first line of all your Bash scripts should be exactly #!/usr/bin/env bash
 The second line of all your Bash scripts should be a comment explaining what is the script doing
 Your servers
 Name	Username	IP	State	
-427881-web-01				
-Tasks
-0. Use a private key
+427881-web-01
+  
+# Tasks
+### 0. Use a private key
 mandatory
 Write a Bash script that uses ssh to connect to your server using the private key ~/.ssh/school with the user ubuntu.
 
-Requirements:
+#### Requirements:
 
-Only use ssh single-character flags
-You cannot use -l
-You do not need to handle the case of a private key protected by a passphrase
+- Only use ssh single-character flags
+- You cannot use -l
+- You do not need to handle the case of a private key protected by a passphrase
+ ```
 sylvain@ubuntu$ ./0-use_a_private_key
 ubuntu@server01:~$ exit
 Connection to 8.8.8.8 closed.
-sylvain@ubuntu$ 
+sylvain@ubuntu$
+```
 Repo:
 
-GitHub repository: alx-system_engineering-devops
-Directory: 0x0B-ssh
-File: 0-use_a_private_key
+- GitHub repository: alx-system_engineering-devops
+- Directory: 0x0B-ssh
+- File: 0-use_a_private_key
   
-1. Create an SSH key pair
+### 1. Create an SSH key pair
 mandatory
 Write a Bash script that creates an RSA key pair.
 
-Requirements:
+#### Requirements:
 
-Name of the created private key must be school
-Number of bits in the created key to be created 4096
-The created key must be protected by the passphrase betty
+- Name of the created private key must be school
+- Number of bits in the created key to be created 4096
+- The created key must be protected by the passphrase betty
 Example:
-
+```
 sylvain@ubuntu$ ls
 1-create_ssh_key_pair
 sylvain@ubuntu$ ./1-create_ssh_key_pair
@@ -120,23 +123,24 @@ The key's randomart image is:
 +-----------------+
 sylvain@ubuntu$ ls
 1-create_ssh_key_pair school  school.pub
-sylvain@ubuntu$ 
+sylvain@ubuntu$
+```
 Repo:
 
-GitHub repository: alx-system_engineering-devops
-Directory: 0x0B-ssh
-File: 1-create_ssh_key_pair
+- GitHub repository: alx-system_engineering-devops
+- Directory: 0x0B-ssh
+- File: 1-create_ssh_key_pair
   
-2. Client configuration file
+### 2. Client configuration file
 mandatory
 Your machine has an SSH configuration file for the local SSH client, let’s configure it to our needs so that you can connect to a server without typing a password. Share your SSH client configuration in your answer file.
 
-Requirements:
+#### Requirements:
 
-Your SSH client configuration must be configured to use the private key ~/.ssh/school
-Your SSH client configuration must be configured to refuse to authenticate using a password
+- Your SSH client configuration must be configured to use the private key ~/.ssh/school
+- Your SSH client configuration must be configured to refuse to authenticate using a password
 Example:
-
+```
 sylvain@ubuntu$ ssh -v ubuntu@98.98.98.98
 OpenSSH_6.6.1, OpenSSL 1.0.1f 6 Jan 2014
 debug1: Reading configuration data /etc/ssh/ssh_config
@@ -179,31 +183,32 @@ debug1: Sending environment.
 debug1: Sending env LANG = en_US.UTF-8
 ubuntu@magic-server:~$
 In the example above, we can see that ssh tries to authenticate using school and does not try to authenticate using a password. You can replace 98.98.98.98 by the IP of your server for testing purposes.
-
+```
 Repo:
 
-GitHub repository: alx-system_engineering-devops
-Directory: 0x0B-ssh
-File: 2-ssh_config
+- GitHub repository: alx-system_engineering-devops
+- Directory: 0x0B-ssh
+- File: 2-ssh_config
   
-3. Let me in!
+### 3. Let me in!
 mandatory
 Now that you have successfully connected to your server, we would also like to join the party.
 
 Add the SSH public key below to your server so that we can connect using the ubuntu user.
-
+```
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDNdtrNGtTXe5Tp1EJQop8mOSAuRGLjJ6DW4PqX4wId/Kawz35ESampIqHSOTJmbQ8UlxdJuk0gAXKk3Ncle4safGYqM/VeDK3LN5iAJxf4kcaxNtS3eVxWBE5iF3FbIjOqwxw5Lf5sRa5yXxA8HfWidhbIG5TqKL922hPgsCGABIrXRlfZYeC0FEuPWdr6smOElSVvIXthRWp9cr685KdCI+COxlj1RdVsvIo+zunmLACF9PYdjB2s96Fn0ocD3c5SGLvDOFCyvDojSAOyE70ebIElnskKsDTGwfT4P6jh9OBzTyQEIS2jOaE5RQq4IB4DsMhvbjDSQrP0MdCLgwkN
+```
 Repo:
 
 GitHub repository: alx-system_engineering-devops
 Directory: 0x0B-ssh
   
-4. Client configuration file (w/ Puppet)
+### 4. Client configuration file (w/ Puppet)
 #advanced
 Let’s practice using Puppet to make changes to our configuration file. Just as in the previous configuration file task, we’d like you to set up your client SSH configuration file so that you can connect to a server without typing a password.
 
 Requirements:
-
+```
 Your SSH client configuration must be configured to use the private key ~/.ssh/school
 Your SSH client configuration must be configured to refuse to authenticate using a password
 Example:
@@ -214,6 +219,7 @@ Notice: /Stage[main]/Main/File_line[Turn off passwd auth]/ensure: created
 Notice: /Stage[main]/Main/File_line[Declare identity file]/ensure: created
 Notice: Finished catalog run in 0.03 seconds
 vagrant@ubuntu:~$
+```
 Repo:
 
 GitHub repository: alx-system_engineering-devops

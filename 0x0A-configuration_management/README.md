@@ -74,7 +74,7 @@ You do <b>not</b> need to attempt to upgrade versions. This project is simply a 
 $ gem install puppet-lint
 ```
 ## Tasks
-###0. Create a file
+### 0. Create a file
 <p>mandatory</p>
 <p>Using Puppet, create a file in /tmp.</p>
 
@@ -103,7 +103,7 @@ I love Puppetroot@6712bef7a528:~#
 ```
 Repo:
 
-GitHub repository: alx-system_engineering-devops
+- GitHub repository: alx-system_engineering-devops
 Directory: 0x0A-configuration_management
 File: 0-create_a_file.pp
 

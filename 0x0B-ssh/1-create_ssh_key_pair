@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+#Script to generate an SSH key
+
+private_key_filename="school"
+key_bits=4096
+passphrase="betty"
+
+ssh-keygen -t rsa -b "$key_bits" -f "$private_key_filename" -N "$passphrase"

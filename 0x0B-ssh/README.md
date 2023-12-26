@@ -70,7 +70,7 @@ Name	Username	IP	State
   
 # Tasks
 ### 0. Use a private key
-mandatory
+
 Write a Bash script that uses ssh to connect to your server using the private key ~/.ssh/school with the user ubuntu.
 
 #### Requirements:
@@ -91,7 +91,7 @@ Repo:
 - File: 0-use_a_private_key
   
 ### 1. Create an SSH key pair
-mandatory
+
 Write a Bash script that creates an RSA key pair.
 
 #### Requirements:
@@ -132,7 +132,7 @@ Repo:
 - File: 1-create_ssh_key_pair
   
 ### 2. Client configuration file
-mandatory
+
 Your machine has an SSH configuration file for the local SSH client, let’s configure it to our needs so that you can connect to a server without typing a password. Share your SSH client configuration in your answer file.
 
 #### Requirements:
@@ -191,7 +191,7 @@ Repo:
 - File: 2-ssh_config
   
 ### 3. Let me in!
-mandatory
+
 Now that you have successfully connected to your server, we would also like to join the party.
 
 Add the SSH public key below to your server so that we can connect using the ubuntu user.
@@ -200,11 +200,11 @@ ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDNdtrNGtTXe5Tp1EJQop8mOSAuRGLjJ6DW4PqX4wId
 ```
 Repo:
 
-GitHub repository: alx-system_engineering-devops
-Directory: 0x0B-ssh
+- GitHub repository: alx-system_engineering-devops
+- Directory: 0x0B-ssh
   
 ### 4. Client configuration file (w/ Puppet)
-#advanced
+
 Let’s practice using Puppet to make changes to our configuration file. Just as in the previous configuration file task, we’d like you to set up your client SSH configuration file so that you can connect to a server without typing a password.
 
 Requirements:
@@ -222,6 +222,6 @@ vagrant@ubuntu:~$
 ```
 Repo:
 
-GitHub repository: alx-system_engineering-devops
-Directory: 0x0B-ssh
-File: 100-puppet_ssh_config.pp
+- GitHub repository: alx-system_engineering-devops
+- Directory: 0x0B-ssh
+- File: 100-puppet_ssh_config.pp

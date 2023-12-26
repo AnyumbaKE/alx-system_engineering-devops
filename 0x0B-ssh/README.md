@@ -1,14 +1,36 @@
 # 0x0B. SSH
-DevOps
-SSH
-Network
-SysAdmin
-Security
- By: Sylvain Kalache
- Weight: 1
- Project will start Dec 22, 2023 6:00 AM, must end by Jan 2, 2024 6:00 AM
- Checker will be released at Dec 25, 2023 12:00 AM
- An auto review will be launched at the deadline
+<table>
+        <tr>
+            <td>DevOps</td>
+            <td>SSH</td>
+            <td>Network</td>
+            <td>SysAdmin</td>
+            <td>Security</td>
+        </tr>
+    </table>
+<table>
+        <tr>
+            <td>By: Sylvain Kalache</td>
+        </tr>
+        <tr>
+            <td>Weight: 1</td>
+        </tr>
+        <tr>
+            <td>Project will start Dec 22, 2023 6:00 AM, must end by Jan 2, 2024 6:00 AM</td>
+        </tr>
+        <tr>
+            <td>Checker will be released at Dec 25, 2023 12:00 AM</td>
+        </tr>
+        <tr>
+            <td>An auto review will be launched at the deadline</td>
+        </tr>
+    </table>
+
+
+ 
+ 
+ 
+ 
 ## Background Context
 
 

@@ -148,7 +148,7 @@ lll
 julien@ubuntu:/tmp$ 
 ```
 
-## Tasks
+# Tasks
 ### 0. Where am I?
 ```
 Score: 100.0% (Checks completed: 100.0%)
@@ -167,29 +167,33 @@ Repo:
 - Directory: 0x00-shell_basics
 - File: 0-current_working_directory
     
-1. What’s in there?
-mandatory
+### 1. What’s in there?
+```
 Score: 100.0% (Checks completed: 100.0%)
+```
 Display the contents list of your current directory.
 
-Example:
-
+<i>Example:</i>
+```
 $ ./1-listit
 Applications    Documents   Dropbox Movies Pictures
 Desktop Downloads   Library Music Public
 $
+```
 Repo:
 
-GitHub repository: alx-system_engineering-devops
-Directory: 0x00-shell_basics
-File: 1-listit
+- GitHub repository: alx-system_engineering-devops
+- Directory: 0x00-shell_basics
+- File: 1-listit
     
-2. There is no place like home
-mandatory
+### 2. There is no place like home
+```
 Score: 100.0% (Checks completed: 100.0%)
+```
 Write a script that changes the working directory to the user’s home directory.
 
-You are not allowed to use any shell variables
+- You are not allowed to use any shell variables
+```
 julien@ubuntu:/tmp$ pwd
 /tmp
 julien@ubuntu:/tmp$ echo $HOME
@@ -198,19 +202,21 @@ julien@ubuntu:/tmp$ source ./2-bring_me_home
 julien@ubuntu:~$ pwd
 /home/julien
 julien@ubuntu:~$ 
+```
 Repo:
 
-GitHub repository: alx-system_engineering-devops
-Directory: 0x00-shell_basics
-File: 2-bring_me_home
+- GitHub repository: alx-system_engineering-devops
+- Directory: 0x00-shell_basics
+- File: 2-bring_me_home
     
-3. The long format
-mandatory
+### 3. The long format
+```
 Score: 100.0% (Checks completed: 100.0%)
+```
 Display current directory contents in a long format
 
-Example:
-
+<i>Example:</i>
+```
 $ ./3-listfiles
 total 32
 -rwxr-xr-x@ 1 sylvain staff 18 Jan 25 00:19 0-current_working_directory
@@ -218,19 +224,21 @@ total 32
 -rwxr-xr-x@ 1 sylvain staff 18 Jan 25 00:29 2-bring_me_home
 -rwxr-xr-x@ 1 sylvain staff 18 Jan 25 00:39 3-listfiles
 $
+```
 Repo:
 
-GitHub repository: alx-system_engineering-devops
-Directory: 0x00-shell_basics
-File: 3-listfiles
+- GitHub repository: alx-system_engineering-devops
+- Directory: 0x00-shell_basics
+- File: 3-listfiles
     
-4. Hidden files
-mandatory
+### 4. Hidden files
+```
 Score: 100.0% (Checks completed: 100.0%)
+```
 Display current directory contents, including hidden files (starting with .). Use the long format.
 
-Example:
-
+<i>Example:</i>
+```
 $ ./4-listmorefiles
 total 32
 drwxr-xr-x@ 6 sylvain staff 204 Jan 25 00:29 .
@@ -241,22 +249,24 @@ drwxr-xr-x@ 43 sylvain staff 1462 Jan 25 00:19 ..
 -rwxr-xr-x@ 1 sylvain staff 18 Jan 25 00:39 3-listfiles
 -rwxr-xr-x@ 1 sylvain staff 18 Jan 25 00:41 4-listmorefiles
 $
+```
 Repo:
 
-GitHub repository: alx-system_engineering-devops
-Directory: 0x00-shell_basics
-File: 4-listmorefiles
+- GitHub repository: alx-system_engineering-devops
+- Directory: 0x00-shell_basics
+- File: 4-listmorefiles
     
-5. I love numbers
-mandatory
+### 5. I love numbers
+```
 Score: 100.0% (Checks completed: 100.0%)
+```
 Display current directory contents.
 
-Long format
-with user and group IDs displayed numerically
-And hidden files (starting with .)
-Example:
-
+- Long format
+- with user and group IDs displayed numerically
+- And hidden files (starting with .)
+<i>Example:</i>
+```
 $ ./5-listfilesdigitonly
 total 32
 drwxr-xr-x@ 6 501 20 204 Jan 25 00:29 .
@@ -268,45 +278,50 @@ drwxr-xr-x@ 43 501 20 1462 Jan 25 00:19 ..
 -rwxr-xr-x@ 1 501 20 18 Jan 25 00:41 4-listmorefiles
 -rwxr-xr-x@ 1 501 20 18 Jan 25 00:43 5-listfilesdigitonly
 $
+```
 Repo:
 
-GitHub repository: alx-system_engineering-devops
-Directory: 0x00-shell_basics
-File: 5-listfilesdigitonly
+- GitHub repository: alx-system_engineering-devops
+- Directory: 0x00-shell_basics
+- File: 5-listfilesdigitonly
     
-6. Welcome
-mandatory
+### 6. Welcome
+```
 Score: 100.0% (Checks completed: 100.0%)
+```
 Create a script that creates a directory named my_first_directory in the /tmp/ directory.
 
-Example:
-
+<i>Example:</i>
+```
 $ ./6-firstdirectory
 $ file /tmp/my_first_directory/
 /tmp/my_first_directory/: directory
 $
+```
 Repo:
 
-GitHub repository: alx-system_engineering-devops
-Directory: 0x00-shell_basics
-File: 6-firstdirectory
+- GitHub repository: alx-system_engineering-devops
+- Directory: 0x00-shell_basics
+- File: 6-firstdirectory
     
-7. Betty in my first directory
-mandatory
+### 7. Betty in my first directory
+```
 Score: 100.0% (Checks completed: 100.0%)
+```
 Move the file betty from /tmp/ to /tmp/my_first_directory.
 
-Example:
-
+<i>Example:</i>
+```
 $ ./7-movethatfile
 $ ls /tmp/my_first_directory/
 betty
 $
+```
 Repo:
 
-GitHub repository: alx-system_engineering-devops
-Directory: 0x00-shell_basics
-File: 7-movethatfile
+- GitHub repository: alx-system_engineering-devops
+- Directory: 0x00-shell_basics
+- File: 7-movethatfile
     
 ### 8. Bye bye Betty
 ```

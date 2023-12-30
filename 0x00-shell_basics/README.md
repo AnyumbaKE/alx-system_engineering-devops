@@ -163,7 +163,7 @@ $
 ```
 Repo:
 
-- GitHub repository: alx-system_engineering-devops
+- GitHub repository: [alx-system_engineering-devops](https://github.com/AnyumbaKE/alx-system_engineering-devops/tree/master)
 - Directory: [0x00-shell_basics](https://github.com/AnyumbaKE/alx-system_engineering-devops/blob/master/0x00-shell_basics/)
 - File: [0-current_working_directory](https://github.com/AnyumbaKE/alx-system_engineering-devops/blob/master/0x00-shell_basics/0-current_working_directory)
     
@@ -182,7 +182,7 @@ $
 ```
 Repo:
 
-- GitHub repository: alx-system_engineering-devops
+- GitHub repository: [alx-system_engineering-devops](https://github.com/AnyumbaKE/alx-system_engineering-devops/tree/master)
 - Directory: 0x00-shell_basics
 - File: 1-listit
     
@@ -391,7 +391,7 @@ Write a script that lists all files (even ones with names beginning with a perio
 
 Repo:
 
-- GitHub repository: alx-system_engineering-devops
+- GitHub repository: [alx-system_engineering-devops](https://github.com/AnyumbaKE/alx-system_engineering-devops/tree/master)
 - Directory: 0x00-shell_basics
 - File: 11-lists
     
@@ -411,7 +411,7 @@ Note that depending on the file, the output of your script will be different.
 
 Repo:
 
-- GitHub repository: alx-system_engineering-devops
+- GitHub repository: [alx-system_engineering-devops](https://github.com/AnyumbaKE/alx-system_engineering-devops/tree/master)
 - Directory: 0x00-shell_basics
 - File: 12-file_type
     
@@ -434,7 +434,7 @@ lrwxrwxrwx  1 ubuntu ubuntu      7 Sep 20 03:24 __ls__ -> /bin/ls
 ```
 Repo:
 
-- GitHub repository: alx-system_engineering-devops
+- GitHub repository: [alx-system_engineering-devops](https://github.com/AnyumbaKE/alx-system_engineering-devops/tree/master)
 - Directory: 0x00-shell_basics
 - File: 13-symbolic_link
     
@@ -448,7 +448,7 @@ You can consider that all HTML files have the extension .html
 
 Repo:
 
-- GitHub repository: alx-system_engineering-devops
+- GitHub repository: [alx-system_engineering-devops](https://github.com/AnyumbaKE/alx-system_engineering-devops/tree/master)
 - Directory: 0x00-shell_basics
 - File: 14-copy_html
     
@@ -488,7 +488,7 @@ drwxrwxr-x 3 ubuntu ubuntu 4096 Sep 20 03:33 ..
 ```
 Repo:
 
-- GitHub repository: alx-system_engineering-devops
+- GitHub repository: [alx-system_engineering-devops](https://github.com/AnyumbaKE/alx-system_engineering-devops/tree/master)
 - Directory: 0x00-shell_basics
 - File: 100-lets_move
     
@@ -507,7 +507,7 @@ ubuntu@ip-172-31-63-244:/tmp/emacs$
 ```
 Repo:
 
-- GitHub repository: alx-system_engineering-devops
+- GitHub repository: [alx-system_engineering-devops](https://github.com/AnyumbaKE/alx-system_engineering-devops/tree/master)
 - Directory: 0x00-shell_basics
 - File: 101-clean_emacs
     
@@ -540,7 +540,7 @@ julien@ubuntu:/tmp/h$
 ```
 Repo:
 
-- GitHub repository: alx-system_engineering-devops
+- GitHub repository: [alx-system_engineering-devops](https://github.com/AnyumbaKE/alx-system_engineering-devops/tree/master)
 - Directory: 0x00-shell_basics
 - File: 102-tree
     
@@ -569,7 +569,7 @@ ubuntu@ubuntu:~/$
 ```
 Repo:
 
-- GitHub repository: alx-system_engineering-devops
+- GitHub repository: [alx-system_engineering-devops](https://github.com/AnyumbaKE/alx-system_engineering-devops/tree/master)
 - Directory: 0x00-shell_basics
 - File: 103-commas
     
@@ -602,7 +602,7 @@ ubuntu@ip-172-31-63-244:/tmp/magic$
 ```
 Repo:
 
-- GitHub repository: alx-system_engineering-devops
+- GitHub repository: [alx-system_engineering-devops](https://github.com/AnyumbaKE/alx-system_engineering-devops/tree/master)
 - Directory: 0x00-shell_basics
 - File: school.mgc
     

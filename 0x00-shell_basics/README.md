@@ -34,9 +34,9 @@ Struggling with the sandbox? Try this: Using Docker & WSL on your local host
 ### Read or watch:
 
 - [What Is “The Shell”?](https://linuxcommand.org/lc3_lts0010.php)
-- Navigation
-- Looking Around
-- A Guided Tour
+- [Navigation](https://linuxcommand.org/lc3_lts0020.php)
+- [Looking Around](https://linuxcommand.org/lc3_lts0030.php)
+- [A Guided Tour](https://linuxcommand.org/lc3_lts0040.php)
 - Manipulating Files
 - Working With Commands
 - Reading Man pages

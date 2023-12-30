@@ -33,7 +33,7 @@ Struggling with the sandbox? Try this: Using Docker & WSL on your local host
 ### Resources
 ### Read or watch:
 
-- What Is “The Shell”?
+- [What Is “The Shell”?](https://linuxcommand.org/lc3_lts0010.php)
 - Navigation
 - Looking Around
 - A Guided Tour

@@ -308,39 +308,43 @@ GitHub repository: alx-system_engineering-devops
 Directory: 0x00-shell_basics
 File: 7-movethatfile
     
-8. Bye bye Betty
-mandatory
+### 8. Bye bye Betty
+```
 Score: 100.0% (Checks completed: 100.0%)
+```
 Delete the file betty.
 
-The file betty is in /tmp/my_first_directory
-Example:
-
+- The file betty is in /tmp/my_first_directory
+<i>Example:</i>
+```
 $ ./8-firstdelete
 $ ls /tmp/my_first_directory/
 $
+```
 Repo:
 
-GitHub repository: alx-system_engineering-devops
-Directory: 0x00-shell_basics
-File: 8-firstdelete
+- GitHub repository: alx-system_engineering-devops
+- Directory: 0x00-shell_basics
+- File: 8-firstdelete
     
-9. Bye bye My first directory
-mandatory
+### 9. Bye bye My first directory
+```
 Score: 100.0% (Checks completed: 100.0%)
+```
 Delete the directory my_first_directory that is in the /tmp directory.
 
-Example:
-
+<i>Example:</i>
+```
 $ ./9-firstdirdeletion
 $ file /tmp/my_first_directory
 /tmp/my_first_directory: cannot open `/tmp/my_first_directory' (No such file or directory)
 $
+```
 Repo:
 
-GitHub repository: alx-system_engineering-devops
-Directory: 0x00-shell_basics
-File: 9-firstdirdeletion
+- GitHub repository: alx-system_engineering-devops
+- Directory: 0x00-shell_basics
+- File: 9-firstdirdeletion
     
 ### 10. Back to the future
 ```

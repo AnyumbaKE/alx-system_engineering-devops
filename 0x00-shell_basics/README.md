@@ -342,11 +342,12 @@ GitHub repository: alx-system_engineering-devops
 Directory: 0x00-shell_basics
 File: 9-firstdirdeletion
     
-10. Back to the future
-mandatory
+### 10. Back to the future
+```
 Score: 100.0% (Checks completed: 100.0%)
+```
 Write a script that changes the working directory to the previous one.
-
+```
 julien@ubuntu:/tmp$ pwd
 /tmp
 julien@ubuntu:/tmp$ cd /var
@@ -356,45 +357,51 @@ julien@ubuntu:/var$ source ./10-back
 /tmp
 julien@ubuntu:/tmp$ pwd
 /tmp
+```
 Repo:
 
-GitHub repository: alx-system_engineering-devops
-Directory: 0x00-shell_basics
-File: 10-back
+- GitHub repository: alx-system_engineering-devops
+- Directory: 0x00-shell_basics
+- File: 10-back
     
-11. Lists
-mandatory
+### 11. Lists
+```
 Score: 100.0% (Checks completed: 100.0%)
+```
 Write a script that lists all files (even ones with names beginning with a period character, which are normally hidden) in the current directory and the parent of the working directory and the /boot directory (in this order), in long format.
 
 Repo:
 
-GitHub repository: alx-system_engineering-devops
-Directory: 0x00-shell_basics
-File: 11-lists
+- GitHub repository: alx-system_engineering-devops
+- Directory: 0x00-shell_basics
+- File: 11-lists
     
-12. File type
-mandatory
+### 12. File type
+```
 Score: 100.0% (Checks completed: 100.0%)
+```
 Write a script that prints the type of the file named iamafile. The file iamafile will be in the /tmp directory when we will run your script.
 
-Example
-
+<i>Example</i>
+```
 ubuntu@ip-172-31-63-244:~$ ./12-file_type
-/tmp/iamafile: ELF 64-bit LSB  executable, x86-64, version 1 (SYSV), dynamically linked (uses shared libs), for GNU/Linux 2.6.24, BuildID[sha1]=bd39c07194a778ccc066fc963ca152bdfaa3f971, stripped
+/tmp/iamafile: ELF 64-bit LSB  executable, x86-64, version 1 (SYSV), dynamically linked (uses shared libs),
+for GNU/Linux 2.6.24, BuildID[sha1]=bd39c07194a778ccc066fc963ca152bdfaa3f971, stripped
+```
 Note that depending on the file, the output of your script will be different.
 
 Repo:
 
-GitHub repository: alx-system_engineering-devops
-Directory: 0x00-shell_basics
-File: 12-file_type
+- GitHub repository: alx-system_engineering-devops
+- Directory: 0x00-shell_basics
+- File: 12-file_type
     
-13. We are symbols, and inhabit symbols
-mandatory
+### 13. We are symbols, and inhabit symbols
+```
 Score: 100.0% (Checks completed: 100.0%)
+```
 Create a symbolic link to /bin/ls, named __ls__. The symbolic link should be created in the current working directory.
-
+```
 ubuntu@ip-172-31-63-244:/tmp/sym$ ls -la
 total 144
 drwxrwxr-x  2 ubuntu ubuntu   4096 Sep 20 03:24 .
@@ -405,32 +412,35 @@ total 144
 drwxrwxr-x  2 ubuntu ubuntu   4096 Sep 20 03:24 .
 drwxrwxrwt 12 root   root   139264 Sep 20 03:24 ..
 lrwxrwxrwx  1 ubuntu ubuntu      7 Sep 20 03:24 __ls__ -> /bin/ls
+```
 Repo:
 
-GitHub repository: alx-system_engineering-devops
-Directory: 0x00-shell_basics
-File: 13-symbolic_link
+- GitHub repository: alx-system_engineering-devops
+- Directory: 0x00-shell_basics
+- File: 13-symbolic_link
     
-14. Copy HTML files
-mandatory
+### 14. Copy HTML files
+```
 Score: 100.0% (Checks completed: 100.0%)
+```
 Create a script that copies all the HTML files from the current working directory to the parent of the working directory, but only copy files that did not exist in the parent of the working directory or were newer than the versions in the parent of the working directory.
 
 You can consider that all HTML files have the extension .html
 
 Repo:
 
-GitHub repository: alx-system_engineering-devops
-Directory: 0x00-shell_basics
-File: 14-copy_html
+- GitHub repository: alx-system_engineering-devops
+- Directory: 0x00-shell_basics
+- File: 14-copy_html
     
-15. Let’s move
-#advanced
+### 15. Let’s move
+```
 Score: 100.0% (Checks completed: 100.0%)
+```
 Create a script that moves all files beginning with an uppercase letter to the directory /tmp/u.
 
 You can assume that the directory /tmp/u will exist when we will run your script
-
+```
 ubuntu@ip-172-31-63-244:/tmp/sym$ ls -la
 total 148
 drwxrwxr-x  3 ubuntu ubuntu   4096 Sep 20 03:33 .
@@ -456,36 +466,40 @@ drwxrwxr-x 2 ubuntu ubuntu 4096 Sep 20 03:33 .
 drwxrwxr-x 3 ubuntu ubuntu 4096 Sep 20 03:33 ..
 -rw-rw-r-- 1 ubuntu ubuntu    0 Sep 20 03:32 My_file
 -rw-rw-r-- 1 ubuntu ubuntu    0 Sep 20 03:32 Elif_ym
+```
 Repo:
 
-GitHub repository: alx-system_engineering-devops
-Directory: 0x00-shell_basics
-File: 100-lets_move
+- GitHub repository: alx-system_engineering-devops
+- Directory: 0x00-shell_basics
+- File: 100-lets_move
     
-16. Clean Emacs
-#advanced
+### 16. Clean Emacs
+```
 Score: 100.0% (Checks completed: 100.0%)
+```
 Create a script that deletes all files in the current working directory that end with the character ~.
-
+```
 ubuntu@ip-172-31-63-244:/tmp/sym$ ls
 main.c  main.c~  Makefile~
 ubuntu@ip-172-31-63-244:/tmp/sym$ ./101-clean_emacs
 ubuntu@ip-172-31-63-244:/tmp/emacs$ ls
 main.c
 ubuntu@ip-172-31-63-244:/tmp/emacs$
+```
 Repo:
 
-GitHub repository: alx-system_engineering-devops
-Directory: 0x00-shell_basics
-File: 101-clean_emacs
+- GitHub repository: alx-system_engineering-devops
+- Directory: 0x00-shell_basics
+- File: 101-clean_emacs
     
-17. Tree
-#advanced
+### 17. Tree
+```
 Score: 100.0% (Checks completed: 100.0%)
+```
 Create a script that creates the directories welcome/, welcome/to/ and welcome/to/school in the current directory.
 
 You are only allowed to use two spaces (and lines) in your script, not more.
-
+```
 julien@ubuntu:/tmp/h$ ls -l
 total 4
 -rwxrw-r-- 1 julien julien 44 Sep 20 12:09 102-tree
@@ -504,23 +518,26 @@ julien@ubuntu:/tmp/h$ ls -l welcome/to
 total 4
 drwxrwxr-x 2 julien julien 4096 Sep 20 12:11 school
 julien@ubuntu:/tmp/h$ 
+```
 Repo:
 
-GitHub repository: alx-system_engineering-devops
-Directory: 0x00-shell_basics
-File: 102-tree
+- GitHub repository: alx-system_engineering-devops
+- Directory: 0x00-shell_basics
+- File: 102-tree
     
-18. Life is a series of commas, not periods
-#advanced
+### 18. Life is a series of commas, not periods
+```
 Score: 100.0% (Checks completed: 100.0%)
+```
 Write a command that lists all the files and directories of the current directory, separated by commas (,).
 
-Directory names should end with a slash (/)
-Files and directories starting with a dot (.) should be listed
-The listing should be alpha ordered, except for the directories . and .. which should be listed at the very beginning
-Only digits and letters are used to sort; Digits should come first
-You can assume that all the files we will test with will have at least one letter or one digit
-The listing should end with a new line
+- Directory names should end with a slash (/)
+-Files and directories starting with a dot (.) should be listed
+- The listing should be alpha ordered, except for the directories . and .. which should be listed at the very beginning
+- Only digits and letters are used to sort; Digits should come first
+- You can assume that all the files we will test with will have at least one letter or one digit
+- The listing should end with a new line
+```
 ubuntu@ubuntu:~/$ ls -a
 
 .  ..  0-commas  0-commas-checks  1-empty_casks  2-gifs  3-directories  4-zeros  5-rot13  6-odd  7-sort_rot13  Makefile  quote  .test  test_dir  test.var
@@ -530,11 +547,12 @@ ubuntu@ubuntu:~/$ ./103-commas
 ./, ../, 0-commas, 0-commas-checks/, 1-empty_casks, 2-gifs, 3-directories, 4-zeros, 5-rot13, 6-odd, 7-sort_rot13, Makefile, quote, .test, test_dir/, test.var
 
 ubuntu@ubuntu:~/$
+```
 Repo:
 
-GitHub repository: alx-system_engineering-devops
-Directory: 0x00-shell_basics
-File: 103-commas
+- GitHub repository: alx-system_engineering-devops
+- Directory: 0x00-shell_basics
+- File: 103-commas
     
 ### 19. File type: School
 ```

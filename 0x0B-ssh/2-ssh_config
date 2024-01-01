@@ -1,23 +1,24 @@
 # SSH configuration file for the local SSH client
 
-Host 54.82.3.117
+Host 54.166.140.156
      PasswordAuthentication no
      IdentityFile ~/.ssh/school
 
-# SSH into 54.82.3.117
+# SSH into 54.166.140.156
 
-root@5995ef2b2408:/alx-system_engineering-devops/0x0B-ssh# ssh -v ubuntu@54.82.3.117
-OpenSSH_8.2p1 Ubuntu-4ubuntu0.10, OpenSSL 1.1.1f  31 Mar 2020
+root@4d8ca712f5fd:/alx-system_engineering-devops/0x0B-ssh# ssh -v ubuntu@54.166.140.156
+OpenSSH_8.2p1 Ubuntu-4ubuntu0.4, OpenSSL 1.1.1f  31 Mar 2020
 debug1: Reading configuration data /etc/ssh/ssh_config
-debug1: /etc/ssh/ssh_config line 3: Applying options for 54.82.3.117
-debug1: Connecting to 54.82.3.117 [54.82.3.117] port 22.
+debug1: /etc/ssh/ssh_config line 19: include /etc/ssh/ssh_config.d/*.conf matched no files
+debug1: /etc/ssh/ssh_config line 21: Applying options for *
+debug1: Connecting to 54.166.140.156 [54.166.140.156] port 22.
 debug1: Connection established.
-debug1: identity file /root/.ssh/school type -1
+debug1: identity file /root/.ssh/school type 0
 debug1: identity file /root/.ssh/school-cert type -1
-debug1: Local version string SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.10
-debug1: Remote protocol version 2.0, remote software version OpenSSH_8.2p1 Ubuntu-4ubuntu0.10
-debug1: match: OpenSSH_8.2p1 Ubuntu-4ubuntu0.10 pat OpenSSH* compat 0x04000000
-debug1: Authenticating to 54.82.3.117:22 as 'ubuntu'
+debug1: Local version string SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.4
+debug1: Remote protocol version 2.0, remote software version OpenSSH_8.2p1 Ubuntu-4ubuntu0.5
+debug1: match: OpenSSH_8.2p1 Ubuntu-4ubuntu0.5 pat OpenSSH* compat 0x04000000
+debug1: Authenticating to 54.166.140.156:22 as 'ubuntu'
 debug1: SSH2_MSG_KEXINIT sent
 debug1: SSH2_MSG_KEXINIT received
 debug1: kex: algorithm: curve25519-sha256
@@ -25,23 +26,60 @@ debug1: kex: host key algorithm: ecdsa-sha2-nistp256
 debug1: kex: server->client cipher: chacha20-poly1305@openssh.com MAC: <implicit> compression: none
 debug1: kex: client->server cipher: chacha20-poly1305@openssh.com MAC: <implicit> compression: none
 debug1: expecting SSH2_MSG_KEX_ECDH_REPLY
-debug1: Server host key: ecdsa-sha2-nistp256 SHA256:upCz65SmgIv3K/HYar9uhP3FKy0ED1qixMjYvbxwYl0
-debug1: Host '54.82.3.117' is known and matches the ECDSA host key.
-debug1: Found key in /root/.ssh/known_hosts:1
-debug1: resetting send seqnr 3
+debug1: Server host key: ecdsa-sha2-nistp256 SHA256:RdP74ryq/3+K3ayEb/yqTv27K83TYZBzHYp2m5pIMps
+debug1: Host '54.166.140.156' is known and matches the ECDSA host key.
+debug1: Found key in /root/.ssh/known_hosts:2
 debug1: rekey out after 134217728 blocks
 debug1: SSH2_MSG_NEWKEYS sent
 debug1: expecting SSH2_MSG_NEWKEYS
-debug1: resetting read seqnr 3
 debug1: SSH2_MSG_NEWKEYS received
 debug1: rekey in after 134217728 blocks
-debug1: Will attempt key: /root/.ssh/school 
+debug1: Will attempt key: /root/.ssh/school RSA SHA256:HSCFVMLNPimnYugkVZnA4Ob/A6x7jl3nIqmrZbeJY/o
 debug1: SSH2_MSG_EXT_INFO received
 debug1: kex_input_ext_info: server-sig-algs=<ssh-ed25519,sk-ssh-ed25519@openssh.com,ssh-rsa,rsa-sha2-256,rsa-sha2-512,ssh-dss,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521,sk-ecdsa-sha2-nistp256@openssh.com>
 debug1: SSH2_MSG_SERVICE_ACCEPT received
 debug1: Authentications that can continue: publickey
 debug1: Next authentication method: publickey
-debug1: Trying private key: /root/.ssh/school
+debug1: Offering public key: /root/.ssh/school RSA SHA256:HSCFVMLNPimnYugkVZnA4Ob/A6x7jl3nIqmrZbeJY/o
+debug1: Server accepts key: /root/.ssh/school RSA SHA256:HSCFVMLNPimnYugkVZnA4Ob/A6x7jl3nIqmrZbeJY/o
 Enter passphrase for key '/root/.ssh/school': 
-debug1: No more authentication methods to try.
-ubuntu@54.82.3.117: Permission denied (publickey).
+debug1: Authentication succeeded (publickey).
+Authenticated to 54.166.140.156 ([54.166.140.156]:22).
+debug1: channel 0: new [client-session]
+debug1: Requesting no-more-sessions@openssh.com
+debug1: Entering interactive session.
+debug1: pledge: network
+debug1: client_input_global_request: rtype hostkeys-00@openssh.com want_reply 0
+debug1: Remote: /home/ubuntu/.ssh/authorized_keys:2: key options: agent-forwarding port-forwarding pty user-rc x11-forwarding
+debug1: Remote: /home/ubuntu/.ssh/authorized_keys:2: key options: agent-forwarding port-forwarding pty user-rc x11-forwarding
+debug1: Sending environment.
+debug1: Sending env LANG = en_US.UTF-8
+debug1: Sending env LC_ALL = en_US.UTF-8
+Welcome to Ubuntu 20.04.5 LTS (GNU/Linux 5.15.0-1021-aws x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+  System information as of Mon Jan  1 21:55:24 UTC 2024
+
+  System load:  0.08              Processes:             98
+  Usage of /:   7.9% of 19.20GB   Users logged in:       0
+  Memory usage: 23%               IPv4 address for eth0: 10.247.13.19
+  Swap usage:   0%
+
+
+0 updates can be applied immediately.
+
+
+The list of available updates is more than a week old.
+To check for new updates run: sudo apt update
+New release '22.04.3 LTS' available.
+Run 'do-release-upgrade' to upgrade to it.
+
+
+Last login: Mon Jan  1 21:49:48 2024 from 3.226.255.173
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+ubuntu@427881-web-01:~$ 

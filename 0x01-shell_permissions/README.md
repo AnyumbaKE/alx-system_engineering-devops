@@ -48,21 +48,17 @@ How to create a group
 How to print real and effective user and group IDs
 How to print the groups a user is in
 How to print the effective userid
-Copyright - Plagiarism
-You are tasked to come up with solutions for the tasks below yourself to meet with the above learning objectives.
-You will not be able to meet the objectives of this or any following project by copying and pasting someone else’s work.
-You are not allowed to publish any content of this project.
-Any form of plagiarism is strictly forbidden and will result in removal from the program.
-Requirements
-General
-Allowed editors: vi, vim, emacs
-All your scripts will be tested on Ubuntu 20.04 LTS
-All your scripts should be exactly two lines long ($ wc -l file should print 2)
-All your files should end with a new line (why?)
-The first line of all your files should be exactly #!/bin/bash
-A README.md file, at the root of the folder of the project, describing what each script is doing
-You are not allowed to use backticks, &&, || or ;
-All your files must be executable
+
+### Requirements
+### General
+- Allowed editors: vi, vim, emacs
+- All your scripts will be tested on Ubuntu 20.04 LTS
+- All your scripts should be exactly two lines long ($ wc -l file should print 2)
+- All your files should end with a new line (why?)
+- The first line of all your files should be exactly #!/bin/bash
+- A README.md file, at the root of the folder of the project, describing what each script is doing
+- You are not allowed to use backticks, &&, || or ;
+- All your files must be executable
 
 ## Tasks
 ### 0. My name is Betty
@@ -82,19 +78,21 @@ Repo:
 - Directory: 0x01-shell_permissions
 - File: 0-iam_betty
     
-1. Who am I
-mandatory
+### 1. Who am I
+```
 Score: 100.0% (Checks completed: 100.0%)
+```
 Write a script that prints the effective username of the current user.
-
+```
 julien@ubuntu:/tmp/h$ ./1-who_am_i
 julien
-julien@ubuntu:/tmp/h$ 
+julien@ubuntu:/tmp/h$
+```
 Repo:
 
-GitHub repository: alx-system_engineering-devops
-Directory: 0x01-shell_permissions
-File: 1-who_am_i
+- GitHub repository: alx-system_engineering-devops
+- Directory: 0x01-shell_permissions
+- File: 1-who_am_i
     
 2. Groups
 mandatory

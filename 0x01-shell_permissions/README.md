@@ -1,53 +1,66 @@
 # 0x01. Shell, permissions
-DevOps
-Shell
-Bash
- By: Julien Barbier
- Weight: 1
- Project over - took place from Jun 8, 2023 6:00 AM to Jun 9, 2023 6:00 AM
- An auto review will be launched at the deadline
+<table>
+        <tr>
+            <td>DevOps</td>
+            <td>Shell</td>
+            <td>Bash</td>
+        </tr>
+    </table>
+<table>
+        <tr>
+            <td>By: Julien Barbier</td>
+        </tr>
+        <tr>
+            <td>Weight: 1</td>
+        </tr>
+        <tr>
+            <td> Project over - took place from Jun 8, 2023 6:00 AM to Jun 9, 2023 6:00 AM</td>
+        </tr>
+        <tr>
+            <td>An auto review will be launched at the deadline</td>
+        </tr>
+    </table>
 
-About Bash projects
+## About Bash projects
 Unless stated, all your projects will be auto-corrected with Ubuntu 20.04 LTS.
 
-Concepts
+## Concepts
 For this project, we expect you to look at this concept:
 
 Struggling with the sandbox? Try this: Using Docker & WSL on your local host
-Resources
-Read or watch:
+### Resources
+### Read or watch:
 
-Permissions
-man or help:
+- Permissions
+### man or help:
 
-chmod
-sudo
-su
-chown
-chgrp
-id
-groups
-whoami
-adduser
-useradd
-addgroup
-Learning Objectives
-At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
+- chmod
+- sudo
+- su
+- chown
+- chgrp
+- id
+- groups
+- whoami
+- adduser
+- useradd
+- addgroup
 
-Permissions
-What do the commands chmod, sudo, su, chown, chgrp do
-Linux file permissions
-How to represent each of the three sets of permissions (owner, group, and other) as a single digit
-How to change permissions, owner and group of a file
-Why can’t a normal user chown a file
-How to run a command with root privileges
-How to change user ID or become superuser
-Other Man Pages
-How to create a user
-How to create a group
-How to print real and effective user and group IDs
-How to print the groups a user is in
-How to print the effective userid
+
+### Permissions
+- What do the commands chmod, sudo, su, chown, chgrp do
+- Linux file permissions
+- How to represent each of the three sets of permissions (owner, group, and other) as a single digit
+- How to change permissions, owner and group of a file
+- Why can’t a normal user chown a file
+- How to run a command with root privileges
+- How to change user ID or become superuser
+### Other Man Pages
+- How to create a user
+- How to create a group
+- How to print real and effective user and group IDs
+- How to print the groups a user is in
+- How to print the effective userid
 
 ### Requirements
 ### General
@@ -69,9 +82,11 @@ Create a script that switches the current user to the user betty.
 
 You should use exactly 8 characters for your command (+1 character for the new line)
 You can assume that the user betty will exist when we will run your script
+```
 julien@ubuntu:/tmp/h$ tail -1 0-iam_betty | wc -c
 9
 julien@ubuntu:/tmp/h$
+```
 Repo:
 
 - GitHub repository: alx-system_engineering-devops
@@ -94,15 +109,17 @@ Repo:
 - Directory: 0x01-shell_permissions
 - File: 1-who_am_i
     
-2. Groups
-mandatory
+### 2. Groups
+```
 Score: 100.0% (Checks completed: 100.0%)
+```
 Write a script that prints all the groups the current user is part of.
-
+```
 julien@ubuntu:/tmp/h$ ./2-groups
 julien adm cdrom sudo dip plugdev lpadmin sambashare
 julien@ubuntu:/tmp/h$ 
 Note: depending on the user, you will get a different output.
+```
 
 Repo:
 

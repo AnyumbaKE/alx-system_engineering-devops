@@ -49,6 +49,7 @@ Let’s start with a very simple example. My server must:
 Let’s pretend that without these 2 elements, my web application cannot work.
 <br />
 Let’s go through this example and fix the server.
+
 ```
 vagrant@vagrant:~$ docker run -d -ti ubuntu:14.04
 Unable to find image 'ubuntu:14.04' locally
@@ -72,6 +73,7 @@ isworking  passwd
 root@76f44c0da25e:/#
 vagrant@vagrant:~$
 ```
+
 Then my answer file would contain:
 ```
 sylvain@ubuntu:~$ cat answerfile

@@ -1,18 +1,26 @@
 # 0x11. What happens when you type google.com in your browser and press Enter
-DevOps
-Network
-SysAdmin
+<table>
+ <td>DevOps</td>
+ <td>Network</td>
+ <td>SysAdmin</td>
+</table>
+
+
+
 <table>
  <tr>
   <td>By: Sylvain Kalache</td>
  </tr>
  <tr>
-  <td><Weight: 1/td>
+  <td>Weight: 1 </td>
+ </tr>
+ <tr>
+  <td>Project will start Jan 15, 2024 6:00 AM, must end by Jan 22, 2024 6:00 AM</td>
  </tr>
 </table>
  
  
- Project will start Jan 15, 2024 6:00 AM, must end by Jan 22, 2024 6:00 AM
+ 
  Manual QA review must be done (request it when you are done with the project)
 Background Context
 Being a Full-Stack Software Engineer means you’re comfortable interacting with any layer of the stack.

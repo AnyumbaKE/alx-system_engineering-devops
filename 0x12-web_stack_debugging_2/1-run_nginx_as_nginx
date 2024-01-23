@@ -3,8 +3,8 @@
 # nginx must be running as nginx user
 # nginx must be listening on all active IPs on port 8080
 # I cannot use apt-get remove
+pkill -f apache2
 chmod 644 /etc/nginx/nginx.conf
 sed -i "1i user nginx;" /etc/nginx/nginx.conf
 sed -i 's/80/8080/' /etc/nginx/sites-enabled/default
-pkill -f apache2
 sudo -u nginx service nginx restart

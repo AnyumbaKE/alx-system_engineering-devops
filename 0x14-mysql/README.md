@@ -1,13 +1,31 @@
-0x14. MySQL
-DevOps
-SysAdmin
-MySQL
- By: Sylvain Kalache, co-founder at Holberton School
- Weight: 1
- Project will start Jan 23, 2024 6:00 AM, must end by Jan 24, 2024 6:00 AM
- Checker was released at Jan 23, 2024 12:00 PM
- An auto review will be launched at the deadline
-Concepts
+# 0x14. MySQL
+<table>
+ <tr>
+<td>DevOps</td>
+<td>SysAdmin</td>
+<td>MySQ</td>
+ </tr>
+</table>
+<table>
+ <tr>
+ <td>By: Sylvain Kalache, co-founder at Holberton School</td>
+</tr>
+ <tr>
+<td>Weight: 1</td>
+ </tr>
+ <tr>
+ <td>Project will start Jan 23, 2024 6:00 AM, must end by Jan 24, 2024 6:00 AM</td>
+</tr>
+ <tr>
+<td>Checker was released at Jan 23, 2024 12:00 PM</td>
+ </tr>
+ <tr>
+<td>An auto review will be launched at the deadline</td>
+ </tr>
+</table>
+
+<i>Concepts</i>
+
 For this project, we expect you to look at these concepts:
 
 Database administration

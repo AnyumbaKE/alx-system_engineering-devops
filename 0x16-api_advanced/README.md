@@ -1,13 +1,27 @@
-0x16. API advanced
-Python
-Scripting
-Back-end
-API
- By: Tim Britton - Cohort #1
- Weight: 1
- Project will start Feb 13, 2024 6:00 AM, must end by Feb 14, 2024 6:00 AM
- Checker will be released at Feb 13, 2024 12:00 PM
- An auto review will be launched at the deadline
+# 0x16. API advanced
+<table>
+<td>Python</td>
+<td>Scripting</td>
+<td>Back-end</td>
+<td>API</td>
+</table>
+<table>
+ <td>By: Stanley Anyumba #1</td>
+</tr>
+<tr>
+ <td>Weight: 1</td>
+</tr>
+ <tr>
+ <td>Project will start Feb 13, 2024 6:00 AM, must end by Feb 14, 2024 6:00 AM</td>
+</tr>
+ <tr>
+ <td>Checker will be released at Feb 13, 2024 12:00 PM</td>
+ </tr>
+ <tr>
+ <td>An auto review will be launched at the deadline</td>
+</tr>
+</table>
+ 
 
 
 Background Context
@@ -47,18 +61,19 @@ All your files must be executable
 The length of your files will be tested using wc
 All your modules should have a documentation (python3 -c 'print(__import__("my_module").__doc__)')
 You must use the Requests module for sending HTTP requests to the Reddit API
-Tasks
-0. How many subs?
-mandatory
+## Tasks
+### 0. How many subs?
+
 Write a function that queries the Reddit API and returns the number of subscribers (not active users, total subscribers) for a given subreddit. If an invalid subreddit is given, the function should return 0.
 
 Hint: No authentication is necessary for most features of the Reddit API. If you’re getting errors related to Too Many Requests, ensure you’re setting a custom User-Agent.
 
 Requirements:
 
-Prototype: def number_of_subscribers(subreddit)
-If not a valid subreddit, return 0.
-NOTE: Invalid subreddits may return a redirect to search results. Ensure that you are not following redirects.
+- Prototype: def number_of_subscribers(subreddit)
+- If not a valid subreddit, return 0.
+- NOTE: Invalid subreddits may return a redirect to search results. Ensure that you are not following redirects.
+```
 wintermancer@lapbox ~/reddit_api/project $ cat 0-main.py
 #!/usr/bin/python3
 """
@@ -76,11 +91,12 @@ wintermancer@lapbox ~/reddit_api/project $ python3 0-main.py programming
 756024
 wintermancer@lapbox ~/reddit_api/project $ python3 0-main.py this_is_a_fake_subreddit
 0
+```
 Repo:
 
-GitHub repository: alx-system_engineering-devops
-Directory: 0x16-api_advanced
-File: 0-subs.py
+- GitHub repository: alx-system_engineering-devops
+- Directory: 0x16-api_advanced
+- File: 0-subs.py
  
 1. Top Ten
 mandatory

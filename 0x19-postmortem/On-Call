@@ -22,6 +22,7 @@ To be on call you need at least 4 components:
 - A monitoring tool
 - An oncall management system
 - A software engineer (that’s you)
+
 <img src="setup.png">
 
 ## A service or website you want to monitor

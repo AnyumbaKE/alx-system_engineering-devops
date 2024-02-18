@@ -29,8 +29,7 @@ Manual QA Review
 It is your responsibility to request a review for your postmortem from a peer before the project’s deadline. If no peers have been reviewed, you should request a review from a TA or staff member.
 
 Tasks
-0. My first postmortem
-mandatory
+### 0. My first postmortem
 
 
 Using one of the web stack debugging project issue or an outage you have personally face, write a postmortem. Most of you will never have faced an outage, so just get creative and invent your own :)
@@ -66,11 +65,11 @@ Please, remember that these blogs must be written in English to further your tec
 Add URLs here:
 Repo:
 
-GitHub repository: alx-system_engineering-devops
-Directory: 0x19-postmortem
-File: README.md
+- GitHub repository: alx-system_engineering-devops
+- Directory: 0x19-postmortem
+- File: README.md
  
-1. Make people want to read your postmortem
+### 1. Make people want to read your postmortem
 #advanced
 We are constantly stormed by a quantity of information, it’s tough to get people to read you.
 

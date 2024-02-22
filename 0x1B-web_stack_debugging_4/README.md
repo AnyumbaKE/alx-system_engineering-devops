@@ -1,17 +1,30 @@
-0x1B. Web stack debugging #4
-DevOps
-SysAdmin
-Scripting
-Debugging
- By: Sylvain Kalache, co-founder at Holberton School
- Weight: 1
- Project will start Feb 19, 2024 6:00 AM, must end by Feb 23, 2024 6:00 AM
- Checker will be released at Feb 22, 2024 6:00 AM
- An auto review will be launched at the deadline
+# 0x1B. Web stack debugging #4
+<table>
+<td>DevOps</td>
+<td>SysAdmin</td>
+<td>Scripting</td>
+<td>Debugging</td>
+</table>
+<table>
+<tr>
+<td>By: Sylvain Kalache, co-founder at Holberton School</td>
+ </tr>
+ <tr>
+<td>Weight: 1</td>
+ </tr>
+ <tr>
+ <td>Project will start Feb 19, 2024 6:00 AM, must end by Feb 23, 2024 6:00 AM</td>
+ </tr>
+ <tr>
+ <td>Checker will be released at Feb 22, 2024 6:00 AM</td>
+ </tr>
+ <tr>
+ <td>An auto review will be launched at the deadline</td>
+ </tr>
+</table>
 
-
-Requirements
-General
+## Requirements
+## General
 All your files will be interpreted on Ubuntu 14.04 LTS
 All your files should end with a new line
 A README.md file at the root of the folder of the project is mandatory

@@ -98,8 +98,8 @@ Repo:
 - Directory: 0x16-api_advanced
 - File: 0-subs.py
  
-1. Top Ten
-mandatory
+### 1. Top Ten
+
 Write a function that queries the Reddit API and prints the titles of the first 10 hot posts listed for a given subreddit.
 
 Requirements:
@@ -107,6 +107,7 @@ Requirements:
 Prototype: def top_ten(subreddit)
 If not a valid subreddit, print None.
 NOTE: Invalid subreddits may return a redirect to search results. Ensure that you are not following redirects.
+```
 wintermancer@lapbox ~/reddit_api/project $ cat 1-main.py
 #!/usr/bin/python3
 """
@@ -134,11 +135,12 @@ PyCon 2017 Talk Videos
 wintermancer@lapbox ~/reddit_api/project $ python3 1-main.py this_is_a_fake_subreddit
 None
 wintermancer@lapbox ~/reddit_api/project $ 
+```
 Repo:
 
-GitHub repository: alx-system_engineering-devops
-Directory: 0x16-api_advanced
-File: 1-top_ten.py
+- GitHub repository: alx-system_engineering-devops
+- Directory: 0x16-api_advanced
+- File: 1-top_ten.py
  
 2. Recurse it!
 mandatory
